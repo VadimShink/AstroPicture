@@ -26,7 +26,7 @@ struct APODListView: View {
                             self.manager.getMoreData(for: 10)
                         }
                     }
-                }
+                }.frame(height: 50, alignment: .leading)
                 
                 ForEach(0..<15) { _ in
                     Rectangle()
