@@ -1,11 +1,10 @@
 # AstroPicture!
 
-Это простое приложение показывает все "Фотографии дня" из данных NASA, отсортированные в порядке убывания по датам, с возможностью перехода на экран подробного просмотра.
+This simple application shows all the "Photos of the Day" from NASA data, sorted in descending order by date, with the ability to jump to the detailed view screen.
 
-При ожидании загрузки изображения, пользователю показывается простая зацикленная анимация.
-По мере листания списка, происходит подрузка данных.
+While waiting for an image to load, the user is shown a simple looping animation. As the list scrolls, the data loads.
 
-Выполнено на SwiftUI, Combine + MVVM
+Stack: SwiftUI, Combine + MVVM
 
 ![IMG_1292](https://user-images.githubusercontent.com/105930553/188572209-02edff24-90ab-465a-b414-5eafd82f3bf1.png)
 
